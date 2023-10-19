@@ -1,0 +1,249 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.link {
+     text-decoration: none;
+}
+.list {
+      list-style-type:none ;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    padding-right: 50px;
+}
+@media screen and (max-width: 768px)
+{
+   .menu{
+    display: none;
+}
+   }
+ 
+body{
+    font-family: "DM Sans", sans-serif;
+    background:var(--black, #121212); 
+    color:#FFFFFF;
+    }
+ .menu-link{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: block;
+ }  
+
+ .link-header:hover,
+ .link-headr:focus{
+   color:var(--brown, #BEA69E);
+    font-weight: 700;
+ }
+ .conteiner{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+ } 
+ @media screen and (max-width: 768px)
+ {
+   .conteiner{
+      width: 704px;
+   }
+ }
+ .page-heder{
+   padding-top: 20px;
+   padding-bottom: 80px;
+ }
+
+ .header-conteiner{
+    display: flex;
+   
+    }
+    
+ .page-navigation{
+   width:100%;
+   max-width: 980px;
+   padding-right: 50px;
+   padding-left: 50px;
+    display: flex;
+    align-items:center;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: var(--black, #121212);
+    justify-content: space-between;
+}
+@media screen and (max-width: 1280px){
+   .page-navigation{
+      max-width: 822px;
+   }
+}
+@media screen and (max-width: 768px){
+ .page-navigation{
+   width: 504px;
+   padding-top: 22px;
+   padding-bottom: 22px;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+} 
+.icon-title{
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 50px;
+ }
+ @media screen and (max-width: 768px)
+{
+   .icon-title{
+      padding-top: 22px;
+      padding-bottom: 22px;
+      padding-left: 20px;
+
+}
+   }
+.text-button{
+display: inline-flex;
+padding: 16px 84px;
+justify-content: center;
+align-items: center;
+color: #121212;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.5; /* 155.556% */
+text-transform: uppercase;
+}
+@media screen and (max-width: 768px)
+{
+  .text-button{
+padding: 16px 58px;
+}
+   }
+button{
+   border-radius: 12px;
+   background: #FFFFFF;
+   display: flex;
+   margin-left: 20px;
+}
+@media screen and (max-width: 768px)
+{
+  button{
+margin-left: 14px;
+}
+   }
+
+button:hover{
+   background-color:  #1D1D1D;
+   color: var(--brown, #BEA69E);
+}
+@media screen and (max-width: 768px)
+ {
+   .open-mobile-menu-btn{
+      border: none;
+      background-color:#121212;
+      padding: 0;
+      line-height: 0;
+   }
+} 
+ @media screen and (min-width:1280px)
+ {
+   .open-mobile-menu-btn{
+      display: none;
+ } 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HERO*/
+h1{
+   color: #FFF;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.06; /* 106.25% */
+   letter-spacing: -0.2;
+} 
+.hero-text{
+   color: #BEA69E;
+font-style: italic;
+font-weight: 400;
+}
+.h1-conteiner{
+   width: 563px;
+  }
+ .conteiner-hero{
+   padding-left: 50px;
+   padding-top: 80px;
+   border-radius: 30px;
+background: #1D1D1D;
+ } 
+.paragraf-hero{
+   width:418px;
+   color: #FFF;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.2; /* 128.571% */
+   letter-spacing: -0.28;
+   padding-top: 20px;
+}
+.img-hero{
+   width: 54px;
+   height: 54px;
+   border-radius: 50px;
+   border: 3px solid #1D1D1D;
+    background: var(--avatar-user-square-adriana-o-sullivan-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat,#1D1D1D);
+   }
+   .hero-content{
+      display: block;
+
+   }
+
+   .hero-grup{
+      display: flex;
+   }
+   .img-hero-men{
+      margin-right:-10px;
+   }
+   .img-women{
+      margin-right:-10px;
+   }
+  .text-hero{
+   display:flex;
+   width: 82px;
+}
+.text-happy{
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px; /* 125% */
+   letter-spacing: -0.64px;
+   
+}
+ 
+  
+  .img-boy{
+ 
+   padding-right: 50px;
+  }
